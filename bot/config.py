@@ -3,23 +3,23 @@ import os
 
 class Config:
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    BOT_TOKEN = 6446514676:AAEvI-WBqoNy_B43QwNm1V6oIrq8oizmdk0
 
-    SESSION_NAME = os.environ.get("SESSION_NAME", ":memory:")
+    SESSION_NAME = kawinraju
 
-    API_ID = int(os.environ.get("API_ID"))
+    API_ID = 11394583
 
-    API_HASH = os.environ.get("API_HASH")
+    API_HASH = d251275f6bcd8dc44c59b2fd99d1552b
 
-    CLIENT_ID = os.environ.get("CLIENT_ID")
+    CLIENT_ID = 139072163307-dis5shj3ph2g2aq20r37i5ftnujdhsvc.apps.googleusercontent.com
 
-    CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
+    CLIENT_SECRET = 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
 
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
+    BOT_OWNER = 5968064176
 
-    AUTH_USERS_TEXT = os.environ.get("AUTH_USERS", "")
+    AUTH_USERS_TEXT = 6095233308
 
-    AUTH_USERS = [BOT_OWNER, 374321319] + (
+    AUTH_USERS = [BOT_OWNER, 6095233308] + (
         [int(user.strip()) for user in AUTH_USERS_TEXT.split(",")]
         if AUTH_USERS_TEXT
         else []
@@ -47,3 +47,4 @@ class Config:
             UPLOAD_MODE = False
 
     CRED_FILE = "auth_token.txt"
+    
